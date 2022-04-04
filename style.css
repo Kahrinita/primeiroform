@@ -1,0 +1,61 @@
+body {
+    background: url(https://img.freepik.com/fotos-gratis/belo-retrato-jovem-mulher-asiatica-sentar-no-chao-com-laptop-e-fone-de-ouvido-na-parede-amarela_74190-10378.jpg?w=740&t=st=1648510987~exp=1648511587~hmac=05bd7c82e297274f3ca884e748871ded65282caf43174187f21532e2f10050ce) fixed no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    box-shadow: 0 20px 40px 0 rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 20px 20px 20px 750px;
+    padding: 12px 12px 36px 12px;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+
+.space-between {
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.col-12 {
+    width: 100%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-3 {
+    width: 25%;
+}
+
+.button-primary {
+    background-color: #c7ba05;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-primary:hover {
+    background-color: #030303;
+    border: #c7ba05 1px;
+    color: rgb(199, 186, 5);
+    box-shadow: rgba(199, 186, 25, 0.7);
+}
